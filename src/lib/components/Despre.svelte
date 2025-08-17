@@ -20,7 +20,7 @@
 
 <section class="container max-w-7xl mx-auto px-4 py-12 sm:py-12" id="despre">
     <div class="text-center">
-        <div class="mx-8">
+        <div class="mx-8 mb-4">
             <h2 class="text-3xl text-primary text-center mb-3 tracking-wider">Despre noi</h2>
 
             <h2 class="mb-12 text-3xl md:text-4xl text-center font-bold">
@@ -53,7 +53,7 @@
             <!-- First block: image left, text right -->
             <div class="flex flex-col md:flex-row items-center gap-8">
                 <div class="md:w-1/2">
-                    <img alt="cladiri1" class="w-full rounded-xl shadow-md" src="cladiri1.jpg">
+                    <img alt="cladiri1" class="w-full rounded-xl shadow-md" src="cladiri1.webp">
                 </div>
                 <div class="lg:ml-8 md:w-1/2 text-center md:text-left space-y-4">
                     <h1 class="text-3xl md:text-4xl font-bold">Misiune</h1>
@@ -70,7 +70,7 @@
             <!-- Second block: text left, image right -->
             <div class="flex flex-col md:flex-row-reverse items-center gap-8">
                 <div class="md:w-1/2">
-                    <img alt="cladiri2" class="w-full rounded-xl shadow-md" src="cladiri2.jpg">
+                    <img alt="cladiri2" class="w-full rounded-xl shadow-md" src="cladiri2.webp">
                 </div>
                 <div class="lg:mr-8 md:w-1/2 text-center md:text-left space-y-4">
                     <h1 class="text-3xl md:text-4xl font-bold">Viziune</h1>

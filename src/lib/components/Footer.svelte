@@ -9,7 +9,7 @@
             <!-- Logo & Company -->
             <div class="flex flex-col items-center sm:flex-row sm:items-center gap-4">
                 <a class="flex font-bold items-center" href="/">
-                    <img src="logo.png" alt="logo" width="150px" height="150px" class="mr-2">
+                    <img src="logo.webp" alt="logo" width="150px" height="150px" class="mr-2">
                     <h3 class="text-xl sm:text-2xl">VR SERVICES SRL</h3>
                 </a>
             </div>
