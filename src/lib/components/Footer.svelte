@@ -2,7 +2,7 @@
     import {ChevronsDown} from "lucide-svelte";
 </script>
 
-<footer class="container py-24 pb-16 sm:py-32 sm:pb-24" id="footer">
+<footer class="container py-6 pb-16 sm:py-6 sm:pb-6" id="footer">
     <div class="p-10 bg-muted/50 dark:bg-card border rounded-2xl">
         <div class="flex flex-col items-center text-center gap-6 sm:flex-row sm:justify-between sm:text-left">
 

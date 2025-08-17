@@ -1,29 +1,33 @@
 <script lang="ts">
     import {Button} from "$lib/components/ui/button";
     import {ArrowRight} from "lucide-svelte";
-    let imageSrc = 'consultant-01.png';
+
+    let imageSrc = 'bg.jpg';
 
 </script>
 
-<section class="container relative overflow-hidden">
+<section
+        class="relative overflow-hidden bg-cover bg-center bg-no-repeat"
+        style="background-image: url({imageSrc}); background-position: center 50%;"
+>
+    <!-- Optional overlay for extra contrast -->
+    <div class="absolute inset-0 bg-black/60"></div>
 
-    <div class="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
-        <div class="text-center space-y-8">
-
-            <div class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold">
-                <h1>
-                    Obține consultanță gratuită
-                </h1>
+    <!-- Content -->
+    <div class="container relative z-10 grid place-items-center gap-8 mx-auto py-20 md:py-32 text-center mt-20">
+        <div class="space-y-8">
+            <div class="max-w-screen-md mx-auto text-5xl md:text-6xl font-bold text-white">
+                Obține consultanță gratuită
             </div>
 
-            <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
+            <p class="max-w-screen-sm mx-auto text-2xl text-white">
                 Suntem aici să te ajutăm. Lasă datele tale de contact în formularul alăturat și un coleg te va contacta
                 pentru asistență.
             </p>
 
             <div class="space-y-4 md:space-y-0 md:space-x-4">
                 <a href="#contact">
-                    <Button class="w-5/6 md:w-1/4 font-bold group/arrow">
+                    <Button class="w-5/6 md:w-1/4 font-bold group/arrow mb-4">
                         Contacteaza-ne!
                         <ArrowRight
                                 class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
@@ -34,16 +38,16 @@
                 <a href="#despre">
                     <Button class="w-5/6 md:w-1/4 font-bold" variant="secondary">
                         Afla mai multe!
-
                     </Button>
                 </a>
             </div>
         </div>
-
     </div>
 </section>
 
+
 <style>
+
     @keyframes img-shadow-animation {
         from {
             opacity: 0.5;

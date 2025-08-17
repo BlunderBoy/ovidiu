@@ -53,6 +53,14 @@
       comment:
         "Super evaluator, promt si corect.",
       rating: 4.9,
+    },
+      {
+      image: "https://github.com/shadcn.png",
+      name: "Maria P.",
+      userName: "Bucuresti",
+      comment:
+        "Am colaborat cu un evaluator de nota 10!!!!!!.",
+      rating: 4.9,
     }
   ];
 
@@ -60,11 +68,8 @@
   const plugin = Autoplay({ delay: 4000, stopOnInteraction: true });
 </script>
 
-<section id="testimonials" class="container py-24 sm:py-32">
+<section id="testimonials" class="container py-12 sm:py-12">
   <div class="text-center mb-8">
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Testimoniale
-    </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
       Feedback-uri din partea clienților noștri

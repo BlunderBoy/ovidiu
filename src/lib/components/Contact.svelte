@@ -26,11 +26,12 @@
     let invalidInputForm = false;
 
     function handleSubmit(event: SubmitEvent) {
+        console.log(contactForm);
         event.preventDefault();
         const {firstName, lastName, email, phoneNumber, message} = contactForm;
         console.log(contactForm);
 
-        window.location.href = `mailto:ovidiuabutnarita@gmail.com?subject=Contact${firstName + lastName}&body=Salut sunt ${firstName} ${lastName}, numar de telefon ${phoneNumber}, emailul meu este ${email}. %0D%0A${message}`;
+        window.location.href = `mailto:cristialex99@gmail.com?subject=Contact ${firstName + " " + lastName}&body=Buna ziua, sunt ${firstName} ${lastName}, numar de telefon ${phoneNumber}. %0D%0A${message}`;
     }
 
     const subjects = [
@@ -42,16 +43,12 @@
     ];
 </script>
 
-<section class="container py-24 sm:py-32" id="contact">
+<section class="container py-12 sm:py-12" id="contact">
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
             <div class="mb-4">
-                <h2 class="text-lg text-primary mb-2 tracking-wider">Contact</h2>
                 <h2 class="text-3xl md:text-4xl font-bold">Contacteaza-ne!</h2>
             </div>
-            <p class="mb-8 text-muted-foreground lg:w-5/6">
-                Ne poți contacta la telefon sau prin email la următoarele adrese:
-            </p>
 
             <div class="flex flex-col gap-4">
                 <div>
@@ -99,7 +96,7 @@
         <Card class="bg-muted/60 dark:bg-card">
             <CardHeader class="text-primary text-2xl"/>
             <CardContent>
-                <form class="grid gap-4" on:submit={handleSubmit}>
+                <form class="grid gap-6" on:submit={handleSubmit}>
                     <div class="flex flex-col md:flex-row gap-8">
                         <div class="flex flex-col w-full gap-1.5">
                             <Label for="firstName">Nume</Label>
@@ -135,10 +132,10 @@
                     <div class="flex flex-col gap-1.5">
                         <Label for="contactEmail">Numar de telefon</Label>
                         <Input
-                                bind:value={contactForm.email}
+                                bind:value={contactForm.phoneNumber}
                                 id="contactEmail"
                                 placeholder="0744 444 444"
-                                type="phone"
+                                type="tel"
                         />
                     </div>
 
@@ -162,7 +159,7 @@
                         </Alert>
                     {/if}
 
-                    <Button class="mt-4">Trimite-ne mesajul!</Button>
+                    <Button class="mt-4" type="submit">Trimite-ne mesajul!</Button>
                 </form>
             </CardContent>
             <CardFooter/>

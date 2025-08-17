@@ -1,23 +1,25 @@
 <script>
-    import Benefits from "$lib/components/Benefits.svelte";
+    import Servicii2 from "$lib/components/Servicii2.svelte";
     import Contact from "$lib/components/Contact.svelte";
     import Faq from "$lib/components/FAQ.svelte";
-    import Features from "$lib/components/Features.svelte";
+    import Servicii from "$lib/components/Servicii.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import Hero from "$lib/components/Hero.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
-    import Services from "$lib/components/Services.svelte";
+    import Tarife from "$lib/components/Tarife.svelte";
     import Testimonials from "$lib/components/Testimonials.svelte";
-    import Teams from "$lib/components/Teams.svelte";
+    import Despre from "$lib/components/Despre.svelte";
 </script>
+<div>
+    <Navbar />
+    <Hero />
+    <Servicii />
+    <Servicii2 />
+    <Tarife />
+    <Despre />
+    <Testimonials />
+    <Contact />
+    <Faq />
+    <Footer />
+</div>
 
-<Navbar />
-<Hero />
-<Features />
-<Benefits />
-<Services />
-<Teams />
-<Testimonials />
-<Contact />
-<Faq />
-<Footer />

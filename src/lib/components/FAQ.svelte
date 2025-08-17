@@ -31,11 +31,10 @@
   ];
 </script>
 
-<section id="faq" class="container md:w-[700px] py-24 sm:py-32">
+<section id="faq" class="container md:w-[700px] py-12 sm:py-12">
   <div class="text-center mb-8">
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">FAQS</h2>
     <h2 class="text-3xl md:text-4xl text-center font-bold">
-      Common Questions
+      Intrebari frecvente
     </h2>
   </div>
 
