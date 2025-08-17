@@ -23,52 +23,37 @@
   const reviewList: ReviewProps[] = [
     {
       image: "https://github.com/shadcn.png",
-      name: "Sarah Chen",
-      userName: "Frontend Developer",
+      name: "Năznean I.",
+      userName: "Târgu Mureș",
       comment:
-        "This SvelteKit landing page template by Memet Zx is exactly what I needed! The conversion from Vue to Svelte is seamless and the components are well-organized.",
+        "Am evaluat 4 proprietăți. Totul a decurs normal iar rapoartele de evaluare le-am primit în aproximativ o săptămână.",
       rating: 5.0,
     },
     {
       image: "https://github.com/zxce3.png",
-      name: "Memet Zx",
-      userName: "Creator & Developer",
+      name: "Huib S.",
+      userName: "Țările de Jos",
       comment:
-        "I created this template to help developers quickly build beautiful landing pages with SvelteKit and Shadcn. Hope you find it useful!",
+        "Ați pregătit un raport excelent. Vă mulțumesc pentru acesta. Ați făcut cercetări amănunțite, astfel încât raportul conține o " +
+          "mulțime de informații utile pentru mine și Anca, de care avem nevoie pentru a lua o decizie bine gândită.",
       rating: 5.0,
     },
     {
       image: "https://github.com/shadcn.png",
-      name: "Alex Rivera",
-      userName: "Full Stack Developer",
+      name: "Lehel K.",
+      userName: "Sângeorgiu de Mureș",
       comment:
-        "Zxce3's implementation of Shadcn components in SvelteKit is brilliant. The dark mode feature and responsive design work flawlessly.",
+        "Comunicare eficientă. Am primit raportul de evaluare într-o săptămână de la data inspecției.",
       rating: 4.9,
     },
-    {
+      {
       image: "https://github.com/shadcn.png",
-      name: "Emily Watson",
-      userName: "UI/UX Designer",
+      name: "Alexandru M.",
+      userName: "Târgu Mureș",
       comment:
-        "The attention to detail in this template is impressive. Memet has done an excellent job maintaining the design aesthetics while converting to SvelteKit.",
-      rating: 5.0,
-    },
-    {
-      image: "https://github.com/shadcn.png",
-      name: "David Kim",
-      userName: "Web Developer",
-      comment:
-        "This is now my go-to template for SvelteKit projects. The documentation is clear and the implementation by Zxce3 is top-notch.",
+        "Super evaluator, promt si corect.",
       rating: 4.9,
-    },
-    {
-      image: "https://github.com/shadcn.png",
-      name: "Lisa Chen",
-      userName: "Software Engineer",
-      comment:
-        "Thanks to Memet's template, I was able to launch my landing page in record time. The TypeScript integration is particularly well done.",
-      rating: 5.0,
-    },
+    }
   ];
 
   let api = $state<CarouselAPI>();
@@ -78,11 +63,11 @@
 <section id="testimonials" class="container py-24 sm:py-32">
   <div class="text-center mb-8">
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Testimonials
+      Testimoniale
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      Hear What Our 1000+ Clients Say
+      Feedback-uri din partea clienților noștri
     </h2>
   </div>
 

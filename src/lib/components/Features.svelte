@@ -1,87 +1,80 @@
 <script lang="ts">
   import { Card, CardContent, CardHeader, CardTitle } from "$lib/components/ui/card";
   import {
-    Paintbrush,
-    MessageCircle,
-    TabletSmartphone,
-    BadgeCheck,
-    Goal,
-    PictureInPicture,
-    MousePointerClick,
-    Newspaper,
+      Paintbrush,
+      MessageCircle,
+      TabletSmartphone,
+      BadgeCheck,
+      Goal,
+      PictureInPicture,
+      MousePointerClick,
+      Newspaper, Blocks, LineChart, Sparkle,
   } from "lucide-svelte";
 
   interface FeaturesProps {
-    icon: 'tabletSmartphone' | 'badgeCheck' | 'goal' | 'pictureInPicture' | 
-          'paintbrush' | 'mousePointerClick' | 'messageCircle' | 'newspaper';
+    icon: string;
     title: string;
     description: string;
   }
 
   const featureList: FeaturesProps[] = [
     {
-      icon: "tabletSmartphone",
-      title: "Mobile Friendly",
+      icon: "blocks",
+      title: "Evaluarea proprietăților imobiliare",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+        "Apartamente, garsoniere, terenuri, case/vile, cabane, spații comerciale, spații industriale etc.",
     },
     {
-      icon: "badgeCheck",
-      title: "Social Proof",
+      icon: "lineChart",
+      title: "Evaluarea bunurilor mobile",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+        "Autovehicule, stocuri, instalații complexe, echipamente și echipamente de producție, stocuri de marfă și materiale etc",
     },
     {
       icon: "goal",
-      title: "Targeted Content",
+      title: "Evaluare pentru garantarea împrumutului",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+        "Obligatorie la accesarea sau refinanțarea creditelor ipotecare sau la creditele cu garanție ipotecară",
     },
     {
-      icon: "pictureInPicture",
-      title: "Strong Visuals",
+      icon: "sparkle",
+      title: "Evaluarea pentru informare",
       description:
-        "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+        "Utilizată în diverse scopuri, cu ar fi partajul, dezbaterea moștenirii sau pur și simplu pentru obținerea valorii de piață a unui imobil.",
     },
-    {
-      icon: "mousePointerClick",
-      title: "Clear CTA",
+      {
+      icon: "sparkle",
+      title: "Evaluarea pentru scopuri contabile",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+        "Utilizată de către persoanele juridice pentru înregistrarea valori bunurilor în contabilitate sau pentru alte scopuri contabile.",
     },
-    {
-      icon: "newspaper",
-      title: "Clear Headline",
+      {
+      icon: "sparkle",
+      title: "Evaluarea pentru impozitare",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+        "Obligatorie pentru persoanele juridice care dețin imobile și pentru persoane fizice care dețin imobile cu altă destinație decât cea rezidențială.",
     },
   ];
 
   const iconMap = {
-    tabletSmartphone: TabletSmartphone,
-    badgeCheck: BadgeCheck,
+    blocks: Blocks,
+    lineChart: LineChart,
     goal: Goal,
-    pictureInPicture: PictureInPicture,
-    paintbrush: Paintbrush,
-    mousePointerClick: MousePointerClick,
-    messageCircle: MessageCircle,
-    newspaper: Newspaper,
+    sparkle: Sparkle
   };
 </script>
 
 <section id="features" class="container py-24 sm:py-32">
   <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-    Features
+    Servicii v2
   </h2>
 
   <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-    What Makes Us Different
+    Ce oferim?
   </h2>
 
   <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-    fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-    facere tenetur.
+    Oferim servicii de evaluare pentru bunuri imobile și bunuri mobile. Ne desfășurăm activitatea în județul Mureș dar ne putem deplasa în toată țara.
   </h3>
 
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

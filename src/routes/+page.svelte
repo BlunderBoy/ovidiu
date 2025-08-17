@@ -1,31 +1,23 @@
 <script>
     import Benefits from "$lib/components/Benefits.svelte";
-    import Community from "$lib/components/Community.svelte";
     import Contact from "$lib/components/Contact.svelte";
     import Faq from "$lib/components/FAQ.svelte";
     import Features from "$lib/components/Features.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import Hero from "$lib/components/Hero.svelte";
-    import HowItWorks from "$lib/components/HowItWorks.svelte";
     import Navbar from "$lib/components/Navbar.svelte";
-    import Pricing from "$lib/components/Pricing.svelte";
     import Services from "$lib/components/Services.svelte";
-    import Sponsors from "$lib/components/Sponsors.svelte";
-    import Teams from "$lib/components/Teams.svelte";
     import Testimonials from "$lib/components/Testimonials.svelte";
+    import Teams from "$lib/components/Teams.svelte";
 </script>
 
 <Navbar />
 <Hero />
-<Sponsors />
-<Benefits />
 <Features />
+<Benefits />
 <Services />
-<HowItWorks />
-<Testimonials />
 <Teams />
-<Community />
-<Pricing />
+<Testimonials />
 <Contact />
 <Faq />
 <Footer />

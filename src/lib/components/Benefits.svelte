@@ -18,27 +18,39 @@
   const benefitList: BenefitsProps[] = [
     {
       icon: "blocks",
-      title: "Build Brand Trust",
+      title: "Evaluarea proprietăților imobiliare",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Apartamente, garsoniere, terenuri, case/vile, cabane, spații comerciale, spații industriale etc.",
     },
     {
       icon: "lineChart",
-      title: "More Leads",
+      title: "Evaluarea bunurilor mobile",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+        "Autovehicule, stocuri, instalații complexe, echipamente și echipamente de producție, stocuri de marfă și materiale etc",
     },
     {
       icon: "wallet",
-      title: "Higher Conversions",
+      title: "Evaluare pentru garantarea împrumutului",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+        "Obligatorie la accesarea sau refinanțarea creditelor ipotecare sau la creditele cu garanție ipotecară",
     },
     {
       icon: "sparkle",
-      title: "Test Marketing Ideas",
+      title: "Evaluarea pentru informare",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Utilizată în diverse scopuri, cu ar fi partajul, dezbaterea moștenirii sau pur și simplu pentru obținerea valorii de piață a unui imobil.",
+    },
+      {
+      icon: "sparkle",
+      title: "Evaluarea pentru scopuri contabile",
+      description:
+        "Utilizată de către persoanele juridice pentru înregistrarea valori bunurilor în contabilitate sau pentru alte scopuri contabile.",
+    },
+      {
+      icon: "sparkle",
+      title: "Evaluarea pentru impozitare",
+      description:
+        "Obligatorie pentru persoanele juridice care dețin imobile și pentru persoane fizice care dețin imobile cu altă destinație decât cea rezidențială.",
     },
   ];
 
@@ -52,17 +64,16 @@
   };
 </script>
 
-<section id="benefits" class="container py-24 sm:py-32">
+<section id="servicii" class="container py-24 sm:py-32">
   <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
     <div>
-      <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+        <h2>Servicii v1 </h2>
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
-        Your Shortcut to Success
+        Ce oferim?
       </h2>
       <p class="text-xl text-muted-foreground mb-8">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-        reprehenderit architecto rerum similique facere odit deleniti
-        necessitatibus quo quae.
+        Oferim servicii de evaluare pentru bunuri imobile și bunuri mobile.
+        Ne desfășurăm activitatea în județul Mureș dar ne putem deplasa în toată țara.
       </p>
     </div>
 

@@ -14,33 +14,19 @@
 
   const FAQList: FAQProps[] = [
     {
-      question: "Is this template free?",
-      answer: "Yes. It is a free Shadcn/Svelte template.",
+      question: "cat ma costa?",
+      answer: "atata",
       value: "item-1",
     },
-    {
-      question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      {
+      question: "Unde?",
+      answer: "tg-mures",
       value: "item-2",
     },
-    {
-      question:
-        "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      {
+      question: "intrebare?",
+      answer: "raspuns",
       value: "item-3",
-    },
-    {
-      question: "Excepteur sint occaecat cupidata non proident sunt?",
-      answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-      value: "item-4",
-    },
-    {
-      question:
-        "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-      answer: "consectetur adipisicing elit. Sint labore.",
-      value: "item-5",
     },
   ];
 </script>
@@ -67,9 +53,9 @@
   </Accordion>
 
   <h3 class="font-medium mt-4">
-    Still have questions?
+    Inca aveti intrebari?
     <a href="#contact" class="text-muted-foreground">
-      <span class="underline">Contact us</span>
+      <span class="underline">Intrebati-ne!</span>
     </a>
   </h3>
 </section>
