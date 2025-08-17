@@ -8,7 +8,7 @@
 
 <section
         class="relative overflow-hidden bg-cover bg-center bg-no-repeat"
-        style="background-image: url({imageSrc}); background-position: center 50%;"
+        style="background-image: url({imageSrc}); background-position: center 40%;"
 >
     <!-- Optional overlay for extra contrast -->
     <div class="absolute inset-0 bg-black/60"></div>

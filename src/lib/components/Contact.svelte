@@ -130,10 +130,10 @@
                     </div>
 
                     <div class="flex flex-col gap-1.5">
-                        <Label for="contactEmail">Numar de telefon</Label>
+                        <Label for="contactTel">Numar de telefon</Label>
                         <Input
                                 bind:value={contactForm.phoneNumber}
-                                id="contactEmail"
+                                id="contactTel"
                                 placeholder="0744 444 444"
                                 type="tel"
                         />
